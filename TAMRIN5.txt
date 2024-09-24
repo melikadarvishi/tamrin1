@@ -1,0 +1,19 @@
+using System;
+namespace FirstProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Name");
+            string name = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("Last Name");
+            string last = Console.ReadLine();
+            Console.WriteLine(name + "" + last);
+        }
+    }
+}
